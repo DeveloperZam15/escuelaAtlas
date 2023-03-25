@@ -6,13 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/index.js --exec babel-node",
-    "build": "babel src -d proyecto && ncp src/views proyecto/views && ncp src/frontend proyecto/frontend"
+    "build": "babel src -d proyecto && ncp src/views proyecto/views && ncp src/frontend proyecto/frontend",
+    "start": "node proyecto/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@babel/runtime": "^7.21.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
