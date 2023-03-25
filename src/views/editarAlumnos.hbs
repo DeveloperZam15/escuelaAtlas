@@ -1,0 +1,47 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-5 offset-md-3">
+            <div class="card card-body bg-dark p-4 text-white">
+                <h4>Actualizar Alumno</h4>
+                <form action="/updateAlumnos/{{alumnos._id}}" method="POST">
+                    <div>
+                        <label for="nombre">Modifica nombre del alumno</label>
+                        <input type="text" name="nombre" placeholder="Name" value="{{alumnos.nombre}}"
+                        class="form-control bg-dark text-white">
+                    </div>
+                    <div>
+                        <label for="paterno">Modifica apellido paterno</label>
+                        <input type="text" name="paterno" placeholder="Pattern" value="{{alumnos.paterno}}"
+                        class="form-control bg-dark text-white">
+                    </div>
+                    <div>
+                        <label for="materno">Modifica apellido materno</label>
+                        <input type="text" name="materno" placeholder="Matern" value="{{alumnos.materno}}"
+                        class="form-control bg-dark text-white">
+                    </div>
+                    <div>
+                        <label for="fechaNacimiento">Modifica fecha de nacimiento</label>
+                        <input type="date" name="fechaNacimiento" placeholder="Birthday" value="{{alumnos.fechaNacimiento}}"
+                        class="form-control bg-dark text-white">
+                    </div>
+                    <div>
+                        <label for="sexo">Modifica sexo del alumno</label>
+                        <input type="text" name="sexo" placeholder="Gender" value="{{alumnos.sexo}}"
+                        class="form-control bg-dark text-white">
+                    </div>
+                    <div>
+                        <label for="celular">Modifica celular del alumno</label>
+                        <input type="number" name="celular" placeholder="Cellphone" value="{{alumnos.celular}}"
+                        class="form-control bg-dark text-white">
+                    </div>
+                    <div>
+                        <label for="direccion">Modifica direccion del alumno</label>
+                        <input type="text" name="direccion" placeholder="Direction" value="{{alumnos.direccion}}"
+                        class="form-control bg-dark text-white">
+                    </div>
+                    <button class="btn btn-info">Actualizar</button>
+                </form>                
+            </div>
+        </div>
+    </div>
+</div>

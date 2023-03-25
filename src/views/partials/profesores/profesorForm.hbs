@@ -1,0 +1,54 @@
+<div class="car card-body p-4 rounded-0 bg-dark text-white">
+    <h4>Agregar Profesor</h4>
+    <form action="/profesores/agregar" method="POST">
+    <div>
+        <label for="rfc">Escribe tu RFC</label>
+        <input type="text" name="rfc" placeholder="RFC" id="rfc"
+        class="form-control bg-dark text-white"/>
+    </div>
+    <div>
+        <label for="nombres">Escribe tu nombre o nombres</label>
+        <input type="text" name="nombres" placeholder="Names" id="nombres"
+        class="form-control bg-dark text-white"/>
+    </div>
+    <div>
+        <label for="paterno">Escribe tu apellido paterno</label>
+        <input type="text" name="paterno" placeholder="Patern" id="paterno"
+        class="form-control bg-dark text-white"/>
+    </div>
+    <div>
+        <label for="materno">Escribe tu apellido materno</label>
+        <input type="text" name="materno" placeholder="Matern" id="materno"
+        class="form-control bg-dark text-white"/>
+    </div>
+    <div>
+        <label for="fechaNacimiento">Selecciona tu fecha de nacimiento</label>
+        <input type="date" name="fechaNacimiento" placeholder="Birthday" id="fechasNacimiento"
+        class="form-control bg-dark text-white"/>
+    </div>
+    <div>
+        <label for="direccion">Escribe tu dirección de casa</label>
+        <input type="text" name="direccion" placeholder="Direction" id="direccion"
+        class="form-control bg-dark text-white"/>
+    </div>    
+    <div>
+        <label for="celular">Escribe tu número de celular</label>
+        <input type="number" name="celular" placeholder="Cellphone" id="celular"
+        class="form-control bg-dark text-white"/>
+    </div>    
+    <div>
+        <label for="profesion">Escribe tu profesion</label>
+        <input type="text" name="profesion" placeholder="Profession" id="profesion"
+        class="form-control bg-dark text-white"/>
+    </div>
+    <div>
+        <label for="numeroEmpleado">Escribe tu número de empleado</label>
+        <input type="number" name="numeroEmpleado" placeholder="NumberEmp" id="numeroEmpleado"
+        class="form-control bg-dark text-white"/>
+    </div>
+    <br/>
+    <button class="btn btn-success btn-sm mt-2">Agregar</button>
+    <br/>
+    <br/>        
+</form>
+</div>

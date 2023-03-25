@@ -1,0 +1,58 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-5 offset-md-3">
+            <div class="card card-body bg-dark p-4 text-white">
+                <h4>Actualizar Asignatura</h4>
+                <form action="/updateProfesores/{{profesores._id}}" method="POST">
+                    <div>
+                        <label for="rfc">Modifica RFC</label>
+                        <input type="text" name="nombre" placeholder="RFC" value="{{profesores.rfc}}"
+                        class="form-control bg-dark text-white">
+                    </div>
+                    <div>
+                        <label for="nombres">Modifica nombre</label>
+                        <input type="text" name="nombres" placeholder="Name" value="{{profesores.nombres}}"
+                        class="form-control bg-dark text-white">
+                    </div>
+                    <div>
+                        <label for="paterno">Modifica apellido paterno</label>
+                        <input type="text" name="paterno" placeholder="Pattern" value="{{profesores.paterno}}"
+                        class="form-control bg-dark text-white">
+                    </div>
+                    <div>
+                        <label for="materno">Modifica apellido materno</label>
+                        <input type="text" name="materno" placeholder="Matern" value="{{profesores.materno}}"
+                        class="form-control bg-dark text-white">
+                    </div>
+                    <div>
+                        <label for="fechaNacimiento">Modifica fecha de nacimiento</label>
+                        <input type="date" name="fechaNacimiento" placeholder="Birthday" value="{{profesores.fechaNacimiento}}"
+                        class="form-control bg-dark text-white">
+                    </div>
+                    <div>
+                        <label for="direccion">Modifica direccion</label>
+                        <input type="text" name="direccion" placeholder="Direction" value="{{profesores.direccion}}"
+                        class="form-control bg-dark text-white">
+                    </div>
+                    <div>
+                        <label for="celular">Modifica celular</label>
+                        <input type="number" name="celular" placeholder="Cellphone" value="{{profesores.celular}}"
+                        class="form-control bg-dark text-white">
+                    </div>
+                    <div>
+                        <label for="profesion">Modifica profesion</label>
+                        <input type="text" name="profesion" placeholder="Profession" value="{{profesores.profesion}}"
+                        class="form-control bg-dark text-white">
+                    </div>
+                <div>
+                        <label for="numeroEmpleado">Modifica el numero de empleado</label>
+                        <input type="number" name="numeroEmpleado" placeholder="NumberEmp" value="{{profesores.numeroEmpleado}}"
+                        class="form-control bg-dark text-white">
+                    </div>
+
+                    <button class="btn btn-info">Actualizar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
