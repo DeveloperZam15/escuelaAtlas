@@ -18,3 +18,5 @@ Apocaliptica tree days grace
 
 SrPeyote
 1857moriethus
+
+mongodb+srv://SrPeyote:<password>@escuelaatlas.zjgbvcm.mongodb.net/?retryWrites=true&w=majority
