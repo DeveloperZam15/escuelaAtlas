@@ -3,20 +3,3 @@ npm i express express-handlebars mongoose morgan cors
 npm i -D @babel/core @babel/cli @babel/node @babel/preset-env nodemon
 
 npm i express-handlebars@5.3.4
-
-
-<h1>My app</h1>
-
-    <ul>
-       <li><a href="/">Inicio</a></li>
-        <li><a href="/agregarAlumno">Alumnos</a></li>
-        <li><a href="/agregarAsignatura">Asignaturas</a></li>
-        <li><a href="/agregarProfesor">Profesores</a></li>
-    </ul>
-
-Apocaliptica tree days grace
-
-SrPeyote
-1857moriethus
-
-mongodb+srv://SrPeyote:<password>@escuelaatlas.zjgbvcm.mongodb.net/?retryWrites=true&w=majority
