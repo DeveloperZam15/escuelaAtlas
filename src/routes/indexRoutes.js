@@ -48,7 +48,7 @@ router.get("/updateAsignaturas/:id", renderEditAsignaturas);
 //------------------------------------------------------------------------------------------------------------
 //------------------------------------------------------------------------------------------------------------
 
-router.post("/updateAlumnos/:id", updateAlumnos)
+router.post("/updateAlumnos/:id", updateAlumnos);
 
 router.post("/updateProfesores/:id", updateProfesores);
 
@@ -66,7 +66,7 @@ router.get("/deleteAsignaturas/:id", deleteAsignaturas);
 //------------------------------------------------------------------------------------------------------------
 //------------------------------------------------------------------------------------------------------------
 
-router.get("/statusAlumnos/:id", statusAlumnos)
+router.get("/statusAlumnos/:id", statusAlumnos);
 
 router.get("/statusProfesores/:id", statusProfesores);
 
